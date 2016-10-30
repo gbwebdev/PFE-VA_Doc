@@ -1,0 +1,10 @@
+This chapter is dedicated to explaining the project's (and therefore the system's) objectives.\\
+In order to understand how the system works one has to understand what goal it is made to fulfill.\\
+
+In this document, we will distinguish the \textbf{platform} from the \textbf{robots} and will consider them as two independant sets of systems.\\
+
+The \textbf{platform} aims at simulating a simple set of situations a vehicle could face in an urbain environment : it has four different intersections plus a crossroad with four traffic-lights. It should provide a comfortable amount of configurations.\\
+The traffic-lights are controlled from an electronic card designed to serve as a "Basys 2" FPGA card interface. They can be simply "time-programmed" or can be made a bit smarter by taking advantage of the Reed switches implemented in the "lanes" just before the traffic-lights.\\
+
+The \textbf{robots} or \textbf{autonomous vehicles} are designed to wander along the \textbf{platform} : they should be able to stay on their lane, and move autonomously while being able to avoid all collision (yield-to-the-right, stopping on a red traffic-light...). The robot's main purpose is to serve as a test-bench. It is not made to be a perfect autonomous vehicle but should be well-made enough so that anyone willing to test autonomous-vehicle related code or algorithm can use it to perform the tests quickly and efficiently.\\
+Out-of-th-box, the robots will only be able to follow a line and stop when they have to. But they should provide enough modularity so that it is easy to enhance this simple behavior. Every single aspect of the robot should be handled by a dedicated piece of software. That way, it is easy for a user to "implement" his code while taking advantage from the existing functions.

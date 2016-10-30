@@ -1,0 +1,488 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"FILL",
+				"FILLER"
+			],
+			[
+				"_init",
+				"_init_bits"
+			],
+			[
+				"_ini",
+				"_init_bool_byte"
+			],
+			[
+				"_in",
+				"_init_bool_byte"
+			],
+			[
+				"pac",
+				"pack"
+			],
+			[
+				"da",
+				"datagram"
+			],
+			[
+				"si",
+				"size〔variable〕"
+			],
+			[
+				"ma",
+				"masks"
+			],
+			[
+				"wai",
+				"waitForData\t(Server.py)"
+			],
+			[
+				"conne",
+				"connexions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "doc.sublime-project",
+			"settings":
+			{
+				"buffer_size": 349,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LaTeX/doc.tex",
+			"settings":
+			{
+				"buffer_size": 3035,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"LuaLaTeX"
+			]
+		]
+	],
+	"build_varint": "LuaLaTeX",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 215.0,
+		"history":
+		[
+			"sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/guillaume/Doc/LaTeX",
+		"/home/guillaume/Doc/LaTeX/includes"
+	],
+	"file_history":
+	[
+		"/home/guillaume/Doc/LaTeX/includes/packages.tex",
+		"/usr/local/texlive/2016/texmf-dist/tex/latex/arev/arev.sty",
+		"/home/guillaume/Doc/doc.sublime-project",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/datahandling/README.md",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/datahandling/Message.py",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/datahandling/Packet.py",
+		"/home/guillaume/PFE-VA_Dev/main.sublime-project",
+		"/home/guillaume/PFE-VA_Dev/README.md",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/constants/ports.py",
+		"/home/guillaume/PFE-VA_Dev/.gitignore",
+		"/home/guillaume/PFE-VA_Dev/components/README.md",
+		"/home/guillaume/PFE-VA_Dev/components/ecl/README.md",
+		"/home/guillaume/PFE-VA_Dev/components/fl/README.md",
+		"/home/guillaume/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/tcp/Client.py",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/constants/__init__.py",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/__init__.py",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/datahandling/__init__.py",
+		"/home/guillaume/PFE-VA_Dev/.pylintrc",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/tcp/__init__.py",
+		"/home/guillaume/PFE-VA_Dev/client.py",
+		"/home/guillaume/PFE-VA_Dev/server.py",
+		"/home/guillaume/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/__init__.py",
+		"/home/guillaume/PFE-VA_Dev/robotBasics/sockets/TCP/Server.py",
+		"/home/guillaume/PFE-VA_Dev/test.py",
+		"/home/guillaume/Robot@BBB/DEV/robotBasics/sockets/TCP/__init__.py",
+		"/home/guillaume/Robot@BBB/DEV/robotBasics/sockets/TCP/Client.py",
+		"/home/guillaume/Robot@BBB/DEV/server.py",
+		"/home/guillaume/Robot@BBB/DEV/client.py",
+		"/home/guillaume/Robot@BBB/DEV/robotBasics/sockets/TCP/Server.py",
+		"/home/guillaume/.config/sublime-text-3/Packages/DocBlockr_Python/DocblockrPython.sublime-settings",
+		"/home/guillaume/.config/sublime-text-3/Packages/User/DocblockrPython.sublime-settings",
+		"/home/guillaume/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"get_ty",
+			"get_si",
+			"self._type",
+			"self._size",
+			"_definition",
+			"self.size",
+			"?')\n",
+			"Level",
+			"print",
+			"math",
+			"self.messageSize",
+			"_init_",
+			"__",
+			"self.port",
+			"self.frequency",
+			"self.connexions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"self.type",
+			"self.size",
+			"self._size",
+			"_messageSize",
+			"__init__",
+			"_",
+			"self.__port",
+			"self.__frequency",
+			"self.__connexions"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "doc.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LaTeX/doc.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2208,
+								2208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 65.0
+	},
+	"output.latextools":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "doc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

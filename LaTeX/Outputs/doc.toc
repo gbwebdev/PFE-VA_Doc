@@ -1,0 +1,14 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}System's Objectives}{3}{section.2}
+\contentsline {section}{\numberline {3}System's Description}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}The robot}{4}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Hardware description}{4}{subsubsection.3.1.1}
+\contentsline {section}{\numberline {4}RobotBasics API}{5}{section.4}
+\contentsline {section}{\numberline {5}Modules Description}{6}{section.5}
+\contentsline {section}{Appendices}{7}{section*.3}
+\contentsline {section}{References}{8}{section*.4}
+\contentsline {subsection}{Nomenclature}{8}{section*.5}
+\contentsline {subsection}{Bibliography}{9}{section*.6}
+\contentsline {subsection}{Table of Figures}{10}{section*.7}
+\contentsline {section}{Abstract}{11}{section*.8}

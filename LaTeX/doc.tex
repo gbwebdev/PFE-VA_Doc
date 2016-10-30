@@ -1,0 +1,76 @@
+\immediate\write18{makeindex -s nomencl.ist -o Outputs/doc.nls Outputs/doc.nlo}
+
+\documentclass[11pt]{article}
+
+\input{includes/packages}
+\include{includes/functions}
+\begin{document}
+
+\input{includes/titlepage}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\section*{Preliminary Comment}
+	
+ 	
+\newpage
+
+\section{Introduction}
+
+	\input{chapitres/0_introduction}
+
+\newpage
+\section{System's Objectives}
+
+	\input{chapitres/1_objectives}
+
+\newpage
+\section{System's Description}
+
+	\input{chapitres/2_description}
+
+\newpage
+\section{RobotBasics API}
+
+\newpage
+\section{Modules Description}
+
+\setcounter{secnumdepth}{0}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\newpage
+\sectionWoNum{Appendices}
+	%\input{chapitres/Annexes/carteCircuit}
+\setcounter{secnumdepth}{0}
+\newpage
+\section{References}
+
+	\subsection{Nomenclature} \label{nomenclature}
+		\printnomenclature
+
+	\newpage
+	\nocite{bib11,bib1}
+	\subsection{Bibliography} \label{bibliography}
+		\begingroup
+		\renewcommand{\section}[2]{}%
+		\bibliography{includes/bibliography}{}
+		\bibliographystyle{plain}
+		\endgroup
+
+	\newpage
+	\subsection{Table of Figures}
+		\begingroup
+		\renewcommand{\section}[2]{}%
+		\listoffigures
+		\endgroup
+		
+\newpage
+\section{Abstract}
+	\input{chapitres/99_abstract}
+\end{document}
